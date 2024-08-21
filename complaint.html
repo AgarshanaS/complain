@@ -193,163 +193,210 @@
 
 
                 <!-- Tabs -->
-                <div class="card">
-                    <!-- Tab panes -->
-                    <div class="tab-content tabcontent-border">
-
-
+                <div class="row">
+                    <div class="col">
                         <div class="card">
-                            <div class="card-body" style="padding: 10px;">
-                                <div class="table-responsive">
-                                    <!--id:addnewtask-->
-                                    <table id="addnewtask" class="table table-striped table-bordered">
-                                        <thead style="background-color: rgb(220, 20, 70); color: white; ">
-                                            <tr>
 
-                                                <th class="text-center"><b>
-                                                        <h5>S.No</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Dept</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Block</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Venue</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Problem</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Image</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Date_raised</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Deadline</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Actual Date</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Status</h5>
-                                                    </b></th>
-                                                <th class="text-center"><b>
-                                                        <h5>Comments</h5>
-                                                    </b></th>
+                            <div class="card-body">
+                                <h4>Profile Information</h4>
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#basic"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-book-open"></i>Basic
+                                                Information</span></a>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#academic"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-book-open"></i>Academic
+                                                Information</span></a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#family"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-account-multiple"></i>Family
+                                                Details</span></a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#parents"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-account-convert"></i>Parents
+                                                meeting</span></a>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#counselling"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-book-open"></i>Counselling
+                                                details</span></a>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#medical"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-medical-bag"></i>Medical
+                                                Leave</span></a>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#SWOT"
+                                            role="tab"><span class="hidden-sm-up"></span> <span
+                                                class="hidden-xs-down"><i class="mdi mdi-book-open"></i>SWOT
+                                                Analysis</span></a>
+                                    </li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <!-- Tab panes -->
+                                <div class="tab-content tabcontent-border">
+                                    <div class="tab-pane active" id="basic" role="tabpanel">
+                                        <div class="p-20">
 
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-center">1</td>
-                                                <td class="text-center">AI</td>
-                                                <td class="text-center">RK</td>
-                                                <td class="text-center">013</td>
-                                                <td class="text-center">Server Error </td>
-                                                <td class="text-center"><img src=""></td><!--Id:Modal3-->
-                                                <td class="text-center">12-2023</td>
-                                                <td class="text-center">30-10-2023</td>
-                                                <td class="text-center">30-10-2023</td>
-                                                <td class="text-center">InProgress</td><!--Id:Modal2-->
-                                                <td class="text-center"><button type="button"
-                                                        class="btn btn-info margin-5" data-toggle="modal"
-                                                        data-target="#comment" height="30px" width="30px">
-                                                        Comments</button> </td>
-                                            </tr>
-                                        </tbody>
+                                            <div class="card">
+                                                <div class="card-body" style="padding: 10px;">
+                                                    <div class="table-responsive">
+                                                        <!--id:addnewtask-->
+                                                        <table id="addnewtask"
+                                                            class="table table-striped table-bordered">
+                                                            <thead
+                                                                style="background-color: rgb(220, 20, 70); color: white; ">
+                                                                <tr>
 
-                                    </table>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>S.No</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Dept</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Block</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Venue</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Problem</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Image</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Date_raised</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Deadline</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Actual Date</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Status</h5>
+                                                                        </b></th>
+                                                                    <th class="text-center"><b>
+                                                                            <h5>Comments</h5>
+                                                                        </b></th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-center">1</td>
+                                                                    <td class="text-center">AI</td>
+                                                                    <td class="text-center">RK</td>
+                                                                    <td class="text-center">013</td>
+                                                                    <td class="text-center">Server Error </td>
+                                                                    <td class="text-center"><img src=""></td>
+                                                                    <!--Id:Modal3-->
+                                                                    <td class="text-center">12-2023</td>
+                                                                    <td class="text-center">30-10-2023</td>
+                                                                    <td class="text-center">30-10-2023</td>
+                                                                    <td class="text-center">InProgress</td>
+                                                                    <!--Id:Modal2-->
+                                                                    <td class="text-center"><button type="button"
+                                                                            class="btn btn-info margin-5"
+                                                                            data-toggle="modal" data-target="#comment"
+                                                                            height="30px" width="30px">
+                                                                            Comments</button> </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Container fluid  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- footer -->
+                <!-- ============================================================== -->
+                <footer class="footer text-center">
+                    <b>2024 © M.Kumarasamy College of Engineering All Rights Reserved.<br>
+                        Developed and Maintained by Technology Innovation Hub.</b>
+                </footer>
+                <!-- ============================================================== -->
+                <!-- End footer -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+
+
+        <!--Task Completion--><!--Id:comment-->
+        <div class="modal fade" id="comment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Comment Forum</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <!--form-->
+                        <div class="mb-3">
+                            <label class="form-label">Query</label>
+                            <input type="text" class="form-control" id="query">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Reply</label>
+                            <input type="text" class="form-control" id="reply">
                         </div>
 
                     </div>
-                </div>
-
-
-            </div>
-            <!-- ============================================================== -->
-            <!-- End Container fluid  -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <footer class="footer text-center">
-                <b>2024 © M.Kumarasamy College of Engineering All Rights Reserved.<br>
-                    Developed and Maintained by Technology Innovation Hub.</b>
-            </footer>
-            <!-- ============================================================== -->
-            <!-- End footer -->
-            <!-- ============================================================== -->
-        </div>
-        <!-- ============================================================== -->
-        <!-- End Page wrapper  -->
-        <!-- ============================================================== -->
-    </div>
-
-
-    <!--Task Completion--><!--Id:comment-->
-    <div class="modal fade" id="comment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Comment Forum</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <!--form-->
-                    <div class="mb-3">
-                        <label class="form-label">Query</label>
-                        <input type="text"  class="form-control" id="query">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="Submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label">Reply</label>
-                        <input type="text" class="form-control" id="reply">
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="Submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Wrapper -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap tether Core JavaScript -->
+        <!-- ============================================================== -->
+        <!-- End Wrapper -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- All Jquery -->
+        <!-- ============================================================== -->
+        <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap tether Core JavaScript -->
 
-    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="assets/extra-libs/sparkline/sparkline.js"></script>
-    <!--Wave Effects -->
-    <script src="dist/js/waves.js"></script>
-    <!--Menu sidebar -->
-    <script src="dist/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="dist/js/custom.min.js"></script>
-    <!--for data table-->
-    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#addnewtask').DataTable();
-        });
-    </script>
+        <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+        <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- slimscrollbar scrollbar JavaScript -->
+        <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+        <script src="assets/extra-libs/sparkline/sparkline.js"></script>
+        <!--Wave Effects -->
+        <script src="dist/js/waves.js"></script>
+        <!--Menu sidebar -->
+        <script src="dist/js/sidebarmenu.js"></script>
+        <!--Custom JavaScript -->
+        <script src="dist/js/custom.min.js"></script>
+        <!--for data table-->
+        <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#addnewtask').DataTable();
+            });
+        </script>
 </body>
 
 </html>
